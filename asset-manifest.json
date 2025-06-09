@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Revanthkola/Portfolio/static/css/main.9bb2d59f.css",
-    "main.js": "/Revanthkola/Portfolio/static/js/main.33c095ba.js",
+    "main.css": "/Revanthkola/Portfolio/static/css/main.6a532bb3.css",
+    "main.js": "/Revanthkola/Portfolio/static/js/main.de60d862.js",
     "static/js/453.f64b0110.chunk.js": "/Revanthkola/Portfolio/static/js/453.f64b0110.chunk.js",
     "static/media/background.jpeg": "/Revanthkola/Portfolio/static/media/background.4097b89e5c05b6e6892c.jpeg",
     "index.html": "/Revanthkola/Portfolio/index.html",
-    "main.9bb2d59f.css.map": "/Revanthkola/Portfolio/static/css/main.9bb2d59f.css.map",
-    "main.33c095ba.js.map": "/Revanthkola/Portfolio/static/js/main.33c095ba.js.map",
+    "main.6a532bb3.css.map": "/Revanthkola/Portfolio/static/css/main.6a532bb3.css.map",
+    "main.de60d862.js.map": "/Revanthkola/Portfolio/static/js/main.de60d862.js.map",
     "453.f64b0110.chunk.js.map": "/Revanthkola/Portfolio/static/js/453.f64b0110.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb2d59f.css",
-    "static/js/main.33c095ba.js"
+    "static/css/main.6a532bb3.css",
+    "static/js/main.de60d862.js"
   ]
 }
