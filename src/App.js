@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import bg from './assets/background.jpeg';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -76,7 +78,19 @@ function App() {
         </button>
       </nav>
 
-      <div className={`container ${darkMode ? "dark" : ""}`}>
+      <div
+  className={`container ${darkMode ? "dark" : ""}`}
+  style={{
+    backgroundImage: darkMode
+      ? `linear-gradient(rgba(30,30,30,0.85), rgba(30,30,30,0.85)), url(${bg})`
+      : `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundColor: darkMode ? "#1e1e1e" : "rgba(255, 255, 255, 0.85)",
+  }}
+>
+
         <header data-aos="fade-down">
           <h1>Revanth</h1>
           <p className="bio">

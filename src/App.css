@@ -59,25 +59,25 @@ html { scroll-behavior: smooth; }
 .dark-nav .nav-links a.active {
   background: #648dae; color: #121212; box-shadow: 0 0 8px #648daeaa;
 }
-/* === Container === */
+/* === Container === *//* App.css */
 .container {
-  background: rgba(255, 255, 255, 0.85);
-  background-image: url('C:\Users\kolak\OneDrive\Desktop\portfolio\revanth-portfolio\public\background.jpeg'); /* Use relative path */
-  background-size: cover; background-position: center;
-  border-radius: 14px; box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 2rem;
+  transition: background 0.3s ease-in-out;
+  color: #000;
 }
+
 .dark .container {
-  background-color: #1e1e1e;
-  background-blend-mode: multiply;
-  background-image: linear-gradient(rgba(30,30,30,0.85), rgba(30,30,30,0.85)), url('C:\Users\kolak\OneDrive\Desktop\portfolio\revanth-portfolio\public\background.jpeg');
   color: #eee;
 }
+
+
 
 /* === Section Titles & Header === */
 header { text-align: center; margin-bottom: 3rem; }
 header h1 {
-  font-size: 3rem; color: #0b0b0b; font-weight: 900;
+  font-size: 3rem; color: #16db9c; font-weight: 900;
   font-family:'Times New Roman', Times, serif; animation: fadeIn 1s ease;
 }
 .dark header h1 { color: #90caf9; }
